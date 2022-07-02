@@ -63,7 +63,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.mapKeys;
+})();
 })();
 </script>
 ```
@@ -126,6 +128,7 @@ The `transform` function is provided three arguments:
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-map-keys@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 function transform( key, value ) {
     return key + ':' + value;
@@ -143,6 +146,7 @@ var obj2 = mapKeys( obj1, transform );
 console.dir( obj2 );
 // => { 'a:beep': 'beep', 'b:boop': 'boop', 'c:foo': 'foo', 'd:bar': 'bar' }
 
+})();
 })();
 </script>
 </body>
@@ -248,7 +252,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/map-values]: https://github.com/stdlib-js/utils-map-values/tree/umd
+[@stdlib/utils/map-values]: https://github.com/stdlib-js/utils-map-values/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
