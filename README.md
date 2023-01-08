@@ -226,7 +226,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-map-keys/main/LICENSE
 
-[ecma-262-for-in]: http://www.ecma-international.org/ecma-262/5.1/#sec-12.6.4
+[ecma-262-for-in]: https://262.ecma-international.org/5.1/#sec-12.6.4
 
 <!-- <related-links> -->
 
