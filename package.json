@@ -37,14 +37,14 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-has-own-property": "^0.0.x",
-    "@stdlib/assert-is-function": "^0.0.x",
-    "@stdlib/string-format": "^0.0.x"
+    "@stdlib/assert-has-own-property": "^0.0.7",
+    "@stdlib/assert-is-function": "^0.0.8",
+    "@stdlib/string-format": "^0.0.3"
   },
   "devDependencies": {
-    "@stdlib/bench": "^0.0.x",
-    "@stdlib/random-base-randu": "^0.0.x",
-    "@stdlib/utils-noop": "^0.0.x",
+    "@stdlib/bench": "^0.0.12",
+    "@stdlib/random-base-randu": "^0.0.8",
+    "@stdlib/utils-noop": "^0.0.14",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
@@ -87,7 +87,7 @@
     "obj"
   ],
   "funding": {
-    "type": "patreon",
-    "url": "https://www.patreon.com/athan"
+    "type": "opencollective",
+    "url": "https://opencollective.com/stdlib"
   }
 }
