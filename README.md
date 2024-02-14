@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import mapKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map-keys@esm/index.mjs';
+import mapKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map-keys@v0.2.0-esm/index.mjs';
 ```
 
 #### mapKeys( obj, transform )
@@ -112,7 +112,7 @@ The `transform` function is provided three arguments:
 <body>
 <script type="module">
 
-import mapKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map-keys@esm/index.mjs';
+import mapKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map-keys@v0.2.0-esm/index.mjs';
 
 function transform( key, value ) {
     return key + ':' + value;
