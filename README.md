@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import mapKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map-keys@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-map-keys/tags). For example,
+
+```javascript
 import mapKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map-keys@v0.2.0-esm/index.mjs';
 ```
 
@@ -112,7 +117,7 @@ The `transform` function is provided three arguments:
 <body>
 <script type="module">
 
-import mapKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map-keys@v0.2.0-esm/index.mjs';
+import mapKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map-keys@esm/index.mjs';
 
 function transform( key, value ) {
     return key + ':' + value;
