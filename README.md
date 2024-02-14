@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import mapKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map-keys@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-map-keys/tags). For example,
+
+```javascript
 import mapKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map-keys@v0.2.0-deno/mod.js';
 ```
 
@@ -107,7 +112,7 @@ The `transform` function is provided three arguments:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import mapKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map-keys@v0.2.0-deno/mod.js';
+import mapKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map-keys@deno/mod.js';
 
 function transform( key, value ) {
     return key + ':' + value;
