@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import mapKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map-keys@deno/mod.js';
+import mapKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map-keys@v0.2.2-deno/mod.js';
 ```
 
 #### mapKeys( obj, transform )
@@ -107,7 +107,7 @@ The `transform` function is provided three arguments:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import mapKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map-keys@deno/mod.js';
+import mapKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map-keys@v0.2.2-deno/mod.js';
 
 function transform( key, value ) {
     return key + ':' + value;
